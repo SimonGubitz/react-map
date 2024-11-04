@@ -1,6 +1,6 @@
 import './App.css';
 import Cookies from 'js-cookie';
-import WelcomePopup from './components/on';
+import WelcomePopup from './components/onboardingScreen';
 import { CircleX, Github, MapPinPlus, Ruler } from "lucide-react";
 import MapComponent from './components/map';
 import ContextMenu from './components/contextMenu'

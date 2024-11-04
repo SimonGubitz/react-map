@@ -1,5 +1,5 @@
 import { ChevronRight } from "lucide-react";
-import React, { useState, ReactNode, MouseEvent, useEffect } from "react";
+import React, { useState, ReactNode, MouseEvent } from "react";
 
 
 interface MenuItem {
