@@ -1,10 +1,10 @@
 import './App.css';
 import Cookies from 'js-cookie';
-import WelcomePopup from './components/onboardingScreen';
+import OnboardingScreen from './components/onboardingScreen.jsx';
 import { CircleX, Github, MapPinPlus, Ruler } from "lucide-react";
-import MapComponent from './components/map';
-import ContextMenu from './components/contextMenu'
-import AnimatedNumber from './components/animated-number'
+import MapComponent from './components/map.tsx'
+import ContextMenu from './components/contextMenu.tsx'
+import AnimatedNumber from './components/animatedNumber.tsx'
 import { useEffect, useState } from 'react';
 
 
@@ -65,7 +65,7 @@ function App() {
     }, {
       groupName: "Links",
       items: [
-        { icon: <Github size={iconSize} />, label: "View the Repo", action: () => window.location = "https://github.com/ssuppressor/react-map/" },
+        { icon: <Github size={iconSize} />, label: "View the Repo", action: () => window.location = "https://github.com/SimonGubitz/react-map/" },
       ]
     }
   ];
@@ -102,7 +102,7 @@ function App() {
     <div className="App rounded-md w-full min-h-screen">
 
 
-      {showPopup && <WelcomePopup onClose={handleClosePopup} />}
+      {showPopup && <OnboardingScreen onClose={handleClosePopup} />}
 
 
 

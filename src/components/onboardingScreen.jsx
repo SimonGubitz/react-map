@@ -5,7 +5,7 @@ function OnboardingScreen({ onClose }) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-md flex justify-center items-center z-[1000]">
       
-      <div className="rounded-lg border-solid border border-slate-500 bg-zinc-900 rounded-xl p-6 max-w-sm w-4/6 text-center text-gray-400">
+      <div className="border-solid border border-slate-500 bg-zinc-900 rounded-xl p-6 max-w-sm w-4/6 text-center text-gray-400">
 
         <h2 className="text-2xl font-semibold mb-2 text-white">Welcome!</h2>
 
